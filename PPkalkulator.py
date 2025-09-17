@@ -58,4 +58,4 @@ elif inp == "b":
         a = float(input("a = "))
         print(f"dla a={a} ppSzecaniu={6*a**2}")
 else:
-    print()
+    print(k)
