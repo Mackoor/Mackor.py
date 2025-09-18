@@ -52,10 +52,14 @@ if inp == "a":
     else:
         print("Nie ma takiej komendy")
 elif inp == "b":
-    print("a - ppSzeacianu ")
+    print("a - ppSzeacianu b - ppProstopadłoscianu")
     inp = input("--- ")
     if inp == "a":
         a = float(input("a = "))
-        print(f"dla a={a} ppSzecaniu={6*a**2}")
+        print(f"dla a={a} ppSzecaniu = {6*a**2}")
+    elif inp == "b":
+        a = float(input("a = "))
+        b = float(input("b = "))
+        c = float(input("c = "))
+        print(f"dla a={a} i dla b={b} i dla c={c} ppProstopadłoscianu = {(a*b)*2 + (a*c)*2 + (b*c)*2}")
 else:
-    print(k)
