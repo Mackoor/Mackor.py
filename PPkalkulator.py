@@ -63,3 +63,4 @@ elif inp == "b":
         c = float(input("c = "))
         print(f"dla a={a} i dla b={b} i dla c={c} ppProstopadłoscianu = {(a*b)*2 + (a*c)*2 + (b*c)*2}")
 else:
+    print("Nie ma takiej komendy")
